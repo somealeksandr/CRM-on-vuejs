@@ -1,21 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="index.css">
-  <title>Document</title>
-</head>
-<body>
-<div>
-<div class="grey darken-1 empty-layout">
-
-
-<form class="card auth-card">
+<template>
+    <form class="card auth-card">
   <div class="card-content">
     <span class="card-title">Домашняя бухгалтерия</span>
     <div class="input-field">
@@ -68,9 +52,4 @@
     </p>
   </div>
 </form>
-
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
-</html>
+</template>
