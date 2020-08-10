@@ -10,7 +10,7 @@
           class="currency-line"
         >
           <span>
-            {{getCurrency(cur)}}
+            {{ getCurrency(cur) | currency(cur) }}
           </span>
         </p>
       </div>
@@ -22,7 +22,7 @@
 export default {
   props: ['rates'],
   data: () => ({
-    currencies: ['RUB', 'USD', 'EUR']
+    currencies: ['RUB', 'USD', 'EUR', 'UAH']
   }),
   computed: {
     base() {
